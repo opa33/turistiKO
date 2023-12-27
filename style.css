@@ -231,3 +231,19 @@ html {
   margin-left: 30px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 500px){
+  #numbem {
+    width: 30vh;
+  }
+}
+
+#bttn1 {
+  width: 350px;
+}
+
+@media screen and (max-width: 500px){
+  #bttn1 {
+    width: 30vh;
+  }
+}
