@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'AS'; 
+    src: url(font\AlumniSans-Regular.ttf); 
+}
+   
+  @font-face {
+    font-family: 'ASB'; 
+    src: url(font/AlumniSans-ExtraBold.ttf);
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-kat {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.catalog {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 799px) {
+    .btn-kat {
+        visibility: hidden;
+        display: none;
+        
+    }
+    
+    .catalog {
+      visibility: hidden;
+      display: none;
+  }
+    
+}
+
+:hover .catalog {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.slider-container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider-content {
+    display: flex;
+    width: 500%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.5s;
+  }
+
+  .slider-item {
+    width: 20%;
+  }
+
+  .slider-item img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .slider-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slider-controls .arrow {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+
+  @media screen and (max-width: 799px) {
+    .slider-container {
+        height: 300px;
+    }
+
+    .slider-item img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .slider-container {
+        height: 200px;
+    }
+    .slider-item img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  @media screen and (max-width: 799px)
+  {.checkout.empty {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }}
+
+
+  .da:hover {
+    color: black;
+  }
+  
+.hover-img:hover {
+  transform: scale(1.2);
+}
+
+.coll1 {
+  padding: 15px;
+  text-align: center;
+  padding-right: 8vh;
+}
+
+.coll2 {
+  width: 50%;
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .coll2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #collba {
+    display: none;
+  }
+}
+
+.menu2 {
+  position: fixed;
+  left: -100%; /* Скрываем меню за левой границей экрана */
+  top: 60px;
+  width: 250px; /* Ширина меню */
+  height: 100vh; /* Высота меню */
+  background-color: #FFFFFF; /* Цвет фона меню */
+  transition: left 0.3s ease; /* Анимация для плавного открытия/закрытия */
+}
+
+.menu2.open {
+  left: 0; /* Показываем меню, сдвигая его влево */
+}
+
+.clossebtn {
+  position: absolute;
+  width: 30px;
+  max-width: 150%;
+  top: -44px;
+  left: 10px;
+
+}
+
+.menuul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.menuul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.card {
+  width: 65vh;
+}
+
+.table33 {
+  width: 100%;
+}
+
+.table33 th {
+  text-align: center;
+  padding: 20px;
+}
+
+.table33 td {
+  text-align: center;
+  padding: 20px;
+}
+
+.btnadm {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.btnadm a {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
